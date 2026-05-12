@@ -1,0 +1,114 @@
+{
+  "tokens": {
+    "peticiones": {
+      "sonido_corto": "algo",
+      "sonido_largo": "ayuda urgente",
+      "señalar_vaso": "tomar agua",
+      "señalar_comida": "comer algo",
+      "señalar_puerta": "salir",
+      "señalar_cama": "dormir",
+      "señalar_bano": "ir al baño",
+      "señalar_ropa": "cambiarme de ropa",
+      "señalar_medicina": "tomar mi medicina",
+      "señalar_telefono": "usar el teléfono",
+      "señalar_television": "ver televisión",
+      "señalar_ventana": "que abran la ventana",
+      "extender_mano": "tomar algo",
+      "señalar_reloj": "hacer algo en este momento"
+    },
+    "emociones": {
+      "manos_arriba": "estoy feliz",
+      "manos_abajo": "estoy triste",
+      "agitar_manos": "estoy ansioso",
+      "sonrisa": "me siento bien",
+      "fruncir_ceno": "no me siento bien",
+      "abrazar_cuerpo": "necesito un abrazo",
+      "señalar_corazon": "siento mucho cariño",
+      "cubrir_cara": "tengo vergüenza",
+      "saltar": "estoy muy emocionado",
+      "bostezar": "tengo sueño"
+    },
+    "dolor": {
+      "cabeza_abajo": "tengo dolor",
+      "señalar_cabeza": "me duele la cabeza",
+      "señalar_estomago": "me duele el estómago",
+      "señalar_pecho": "me duele el pecho",
+      "señalar_garganta": "me duele la garganta",
+      "señalar_espalda": "me duele la espalda",
+      "señalar_pierna": "me duele la pierna",
+      "temblar": "tengo frío o escalofríos",
+      "sudar": "tengo fiebre o calor",
+      "señalar_ojos": "me duelen los ojos",
+      "señalar_oidos": "me duelen los oídos",
+      "señalar_dientes": "me duelen los dientes"
+    },
+    "social": {
+      "aplaudir": "llamen a alguien por favor",
+      "señalar_persona": "quiero hablar con esa persona",
+      "saludar_mano": "hola, buenos días",
+      "despedir_mano": "adiós, hasta luego",
+      "señalar_familia": "quiero ver a mi familia",
+      "señalar_doctor": "necesito un médico",
+      "señalar_enfermera": "necesito a la enfermera",
+      "pulgar_arriba": "todo está bien, gracias",
+      "pulgar_abajo": "algo está mal",
+      "señalar_ayuda": "necesito ayuda por favor"
+    },
+    "respuestas": {
+      "asentir": "sí, de acuerdo",
+      "negar": "no, en desacuerdo",
+      "encoger_hombros": "no sé o no entiendo",
+      "señalar_si": "confirmo que sí",
+      "señalar_no": "confirmo que no",
+      "esperar_mano": "espera un momento por favor",
+      "repetir_gesto": "por favor repite lo que dijiste"
+    },
+    "intensidad": {
+      "muy": "con mucha urgencia",
+      "poco": "levemente",
+      "mucho": "en gran medida"
+    }
+  },
+  "contexto": {
+    "manana": {
+      "señalar_puerta": "Quiero ir a pasear esta mañana",
+      "señalar_cama": "Aún quiero dormir un poco más",
+      "señalar_comida": "Quiero desayunar",
+      "señalar_vaso": "Quiero agua o jugo por favor",
+      "sonido_corto": "Necesito algo para empezar el día"
+    },
+    "noche": {
+      "señalar_puerta": "Quiero ir a dormir",
+      "señalar_cama": "Ya es hora de dormir",
+      "señalar_comida": "Quiero cenar",
+      "señalar_vaso": "Quiero agua antes de dormir",
+      "sonido_corto": "Necesito algo antes de dormir"
+    },
+    "comida": {
+      "sonido_corto": "Quiero más comida por favor",
+      "señalar_vaso": "Quiero algo de tomar",
+      "manos_arriba": "Está delicioso, me encanta",
+      "fruncir_ceno": "No me gusta esta comida",
+      "negar": "No quiero más, gracias"
+    },
+    "dolor": {
+      "sonido_largo": "Tengo mucho dolor, necesito ayuda urgente",
+      "asentir": "Sí, ahí es donde me duele",
+      "negar": "No, no es ahí donde me duele"
+    }
+  },
+  "plantillas": {
+    "peticion_simple": "Me gustaría {peticion}, por favor.",
+    "peticion_con_emocion": "{emocion_cap} y me gustaría {peticion}, por favor.",
+    "dolor_simple": "{dolor_cap}. Necesito ayuda.",
+    "dolor_con_peticion": "{dolor_cap}. Por eso me gustaría {peticion}, por favor.",
+    "social_simple": "{social_cap}.",
+    "social_con_emocion": "{emocion_cap}. {social_cap}.",
+    "emocion_simple": "{emocion_cap}.",
+    "urgencia": "¡{peticion_cap}! Es urgente, por favor ayúdenme.",
+    "saludo": "{social_cap}. ¿Cómo están?",
+    "despedida": "{social_cap}. Fue un gusto.",
+    "confirmacion": "{respuesta_cap}.",
+    "con_intensidad": "{intensidad_cap}, {resto}."
+  }
+}
